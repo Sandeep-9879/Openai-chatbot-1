@@ -3,7 +3,7 @@ const form = document.getElementById('chat-form');
 const input = document.getElementById('user-input');
 
 // ⚠️ Paste your OpenAI API key here for testing (DO NOT publish this key publicly!)
-const OPENAI_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"; // Replace with your key
+const OPENAI_API_KEY = "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"; // Replace with your key
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
